@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Bisque</title>
+  <title>BisQue2</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -60,14 +60,14 @@
     </div>
   </div>  -->
 
-  <!-- <nav class="navbar navbar-light custom-navbar">
+  <nav class="navbar navbar-light custom-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">BisQue</a>
-      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+      <a class="navbar-brand" href="index.html">BisQue2</a>
+      <!-- <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar"> -->
         <span></span>
       </a>
     </div>
-  </nav> -->
+  </nav>
 
   <main id="main">
 
@@ -82,49 +82,51 @@
           <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100" style="width: 1000px;">
             <div id="filters" class="filters">
               <a href="#" data-filter="*" class="active">All</a>
+              <a href="#" data-filter=".biology">Biology</a>
+              <a href="#" data-filter=".ecology">Ecology</a>
+              <a href="#" data-filter=".marine">Marine Science</a>
               <a href="#" data-filter=".materials">Materials Science</a>
               <a href="#" data-filter=".medical">Medical Science</a>
               <a href="#" data-filter=".methane">Methane</a>
-              <a href="#" data-filter=".marine">Marine Science</a>
-              <a href="#" data-filter=".ecology">Ecology</a>
 
             </div>
           </div>
         </div>
 
-        <!-- materials -->
+
+
+        
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          <div class="item materials col-sm-6 col-md-4 col-lg-4 mb-4">
-            <!-- <a href="work-single.html" class="item-wrap fancybox"> -->
-            <a href="https://bisque2.ece.ucsb.edu/module_service/Dream3D/?wpublic=1" target="_blank" class="item-wrap fancybox">
+
+          <!-- biology -->
+          <div class="item biology col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="https://bisque2.ece.ucsb.edu/module_service/CellSegment3DUnet/?wpublic=1" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Module:</h3>
-                <span>Dream3D</span>
+                <span>Cell Segmentation</span>
               </div>
-              <img class="img-fluid-module" src="assets/img/Dream3D.svg">
+              <img class="img-fluid-module" src="assets/img/cellect.svg">
             </a>
           </div>
 
-          <!-- methane --> 
-          <div class="item methane col-sm-6 col-md-4 col-lg-4 mb-4">
-            <!-- <a href="work-single.html" class="item-wrap fancybox"> -->
-              <a href="https://bisque2.ece.ucsb.edu/client_service/view?resource=https://bisque2.ece.ucsb.edu/data_service/00-vu6LvkqvAgocfZnoR8TSaF" target="_blank" class="item-wrap fancybox">
+          <!-- ecology -->
+          <div class="item ecology col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="https://bisque2.ece.ucsb.edu/module_service/MaraAnimalDetection/?wpublic=1" target="_blank" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Module:</h3>
+                <span>MARA Animal Detection</span>
+              </div>
+              <img class="img-fluid-module" src="assets/img/mara_detection.png">
+            </a>
+          </div>
+
+          <div class="item ecology col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="https://bisque2.ece.ucsb.edu/client_service/view?resource=https://bisque2.ece.ucsb.edu/data_service/00-8FhRFydhHKM9SsxeDhAiCE" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Dataset:</h3>
-                <span>MethaneMapper Flightlines</span>
+                <span>Wildlife Mapper</span>
               </div>
-              <img class="img-fluid-dataset" src="assets/img/methanemapper_dataset.png">
-            </a>
-          </div>
-
-          <!-- medical -->
-          <div class="item medical col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="https://bisque2.ece.ucsb.edu/module_service/nphprediction/?wpublic=1" target="_blank" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Module:</h3>
-                <span>NPH Prediction</span>
-              </div>
-              <img class="img-fluid-module" src="assets/img/nph.svg">
+              <img class="img-fluid-dataset" src="assets/img/wildlife_mapper.png">
             </a>
           </div>
 
@@ -148,31 +150,73 @@
             </a>
           </div>
 
-          <!-- ecology -->
-          <div class="item ecology col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="https://bisque2.ece.ucsb.edu/module_service/MaraAnimalDetection/?wpublic=1" target="_blank" class="item-wrap fancybox">
+          <!-- materials -->
+          <div class="item materials col-sm-6 col-md-4 col-lg-4 mb-4">
+            <!-- <a href="work-single.html" class="item-wrap fancybox"> -->
+            <a href="https://bisque2.ece.ucsb.edu/module_service/Dream3D/?wpublic=1" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Module:</h3>
-                <span>MARA Animal Detection</span>
+                <span>Dream3D</span>
               </div>
-              <img class="img-fluid-module" src="assets/img/mara_detection.png">
+              <img class="img-fluid-module" src="assets/img/Dream3D.svg">
+            </a>
+          </div>
+          
+          <div class="item materials col-sm-6 col-md-4 col-lg-4 mb-4">
+            <!-- <a href="work-single.html" class="item-wrap fancybox"> -->
+            <a href="https://bisque2.ece.ucsb.edu/module_service/EBSDSR/?wpublic=1" target="_blank" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Module:</h3>
+                <span>EBSDSR</span>
+              </div>
+              <img class="img-fluid-module" src="assets/img/EBSDSR.png">
             </a>
           </div>
 
-          <div class="item ecology col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="https://bisque2.ece.ucsb.edu/client_service/view?resource=https://bisque2.ece.ucsb.edu/data_service/00-8FhRFydhHKM9SsxeDhAiCE" target="_blank" class="item-wrap fancybox">
+          
+          <!-- methane --> 
+          <div class="item methane col-sm-6 col-md-4 col-lg-4 mb-4">
+            <!-- <a href="work-single.html" class="item-wrap fancybox"> -->
+              <a href="https://bisque2.ece.ucsb.edu/client_service/view?resource=https://bisque2.ece.ucsb.edu/data_service/00-vu6LvkqvAgocfZnoR8TSaF" target="_blank" class="item-wrap fancybox">
               <div class="work-info">
                 <h3>Dataset:</h3>
-                <span>Wildlife Mapper</span>
+                <span>MethaneMapper Flightlines</span>
               </div>
-              <img class="img-fluid-dataset" src="assets/img/wildlife_mapper.png">
+              <img class="img-fluid-dataset" src="assets/img/methanemapper_dataset.png">
             </a>
-
           </div>
+
+          <!-- medical -->
+          <div class="item medical col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="https://bisque2.ece.ucsb.edu/module_service/nphprediction/?wpublic=1" target="_blank" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Module:</h3>
+                <span>NPH Prediction</span>
+              </div>
+              <img class="img-fluid-module" src="assets/img/nph.svg">
+            </a>
+          </div>
+
+          <div class="item medical col-sm-6 col-md-4 col-lg-4 mb-4">
+            <a href="https://bisque2.ece.ucsb.edu/module_service/inphanalysis/?wpublic=1" target="_blank" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Module:</h3>
+                <span>iNPH Analysis</span>
+              </div>
+              <img class="img-fluid-module" src="assets/img/inph.png">
+            </a>
+          </div>
+
+          
+
+          
+
+
+
         </div>
       </div>
-    </section><!-- End  Works Section -->
-  </main><!-- End #main -->
+    </section>
+  </main>
 
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">
